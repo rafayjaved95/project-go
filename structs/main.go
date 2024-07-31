@@ -30,8 +30,7 @@ func main() {
 		contactInfo: contactInfo{email: "jim@gmail.com", zipCode: 94000},
 	}
 
-	jimPointer := &jim
-	jimPointer.updateName("Jimmy")
+	jim.updateName("Jimmy")
 	jim.print()
 
 }
